@@ -1,0 +1,58 @@
+.box {
+    position: relative;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+  }
+  
+  .bar-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  
+  .bar {
+    width: 40px;
+    background-color: #000;
+    border-radius: 5px;
+  }
+  
+  .bar:nth-child(1) {
+    height: 30%;
+  }
+  
+  .bar:nth-child(2) {
+    height: 50%;
+  }
+  
+  .bar:nth-child(3) {
+    height: 70%;
+  }
+
+  .horizontal-box {
+    height: 100px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+  }
+
+  .horizontal-box h3 {
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg);
+    font-size: 19px;
+  }
+  
